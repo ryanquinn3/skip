@@ -1,0 +1,9 @@
+{
+  "extends": "../base.tsconfig.json",
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "baseUrl": ".."
+  }
+}
