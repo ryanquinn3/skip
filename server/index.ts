@@ -3,6 +3,7 @@ import * as debug from 'debug';
 import * as express from 'express';
 import * as open from 'opn';
 import * as path from 'path';
+import * as morgan from 'morgan';
 
 import apiRouter from './api';
 
@@ -13,6 +14,7 @@ const app = express();
 const staticPath = path.resolve(__dirname, '..', 'dist');
 const port = 5000;
 app.use(express.static(staticPath));
+app.use(morgan('dev'));
 app.use('/api', apiRouter);
 
 const stall = (delay: number): Promise<any> => {

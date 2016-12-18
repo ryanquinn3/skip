@@ -6,9 +6,6 @@
         "module": "es6",
         "target": "es6",
         "jsx": "react",
-        "baseUrl": "..",
-        "paths": {
-            "redux": ["node_modules/redux"]
-        }
+        "baseUrl": ".."
     }
 }

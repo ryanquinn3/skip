@@ -1,8 +1,10 @@
 {
   "compilerOptions": {
     "noImplicitAny": true,
-    "strictNullChecks": true
-  },
+    "strictNullChecks": true,
+    "allowSyntheticDefaultImports": true,
+    "allowJs": true
+    },
   "exclude": [
     "node_modules",
     "dist"

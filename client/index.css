@@ -1,0 +1,47 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.track-table {
+    width: 100%;
+    display: flex;
+}
+
+.player-container {
+    width: 30vw;
+}
+
+.track-list-container {
+    flex: 1;
+}
+
+.track-list {
+    padding-top: 1em;
+    height: calc(100vh - 140px);
+    overflow: scroll;
+}
+
+.song-row {
+    height: 2em;
+    vertical-align: middle;
+    line-height: 2em;
+    padding-left: 1em;
+}
+
+.song-row:hover {
+    background-color: lightblue;
+}
+
+.history-item {
+    height: 2em;
+    vertical-align: middle;
+    line-height: 2em;
+}
+.song-row-number{
+    color: grey;
+    font-size: .7em;
+}
+
+.audio-element {
+    width: 100%;
+}
