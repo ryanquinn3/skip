@@ -1,7 +1,5 @@
-Skip is fire
+Skip is a browser based music player for your local mp3s.
 
-To use the binary globally, clone this repo then
-`npm install -g .`
-that should give you global access to the 'skip' binary;
+Goal: Have this repo packaged properly and /bin/skip properly configured with npm i -g
 
-Browse to a folder with music and run `skip start`
+Workaround: `./path/to/this/dir/bin/skip start`

@@ -10,7 +10,7 @@ injectTapEventPlugin();
 
 const App = () => (
     <div>
-        <AppBar style={{backgroundColor: grey500}} title={'Skip The Bad Shit'}/>
+        <AppBar style={{backgroundColor: grey500}} title={'Skip It'}/>
         <TrackTable/>
     </div>
 );
